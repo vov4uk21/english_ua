@@ -3,57 +3,94 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Приєднатися до Telegram</title>
+  <title>Приєднатися до Telegram ☀️</title>
   <style>
+    /* 🌞 Основні стилі сторінки */
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f6fa;
       margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      background: linear-gradient(135deg, #fefcea, #f1f7ff, #e8f9f1);
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
     }
+
+    /* ☁️ Контейнер */
     .card {
-      background: white;
-      padding: 24px;
-      border-radius: 12px;
-      box-shadow: 0px 4px 20px rgba(0,0,0,0.1);
-      max-width: 360px;
+      background: #ffffffcc;
+      backdrop-filter: blur(8px);
+      padding: 32px;
+      border-radius: 20px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+      max-width: 400px;
+      width: 90%;
       text-align: center;
+      animation: fadeIn 1s ease;
     }
+
+    /* 🌟 Анімація появи */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ☀️ Заголовок */
     h1 {
-      margin-top: 0;
-      font-size: 22px;
-      color: #333;
+      font-size: 28px;
+      margin-bottom: 12px;
+      color: #ff9900;
+      font-weight: 700;
     }
+
+    /* 🌻 Текст */
     p {
-      color: #555;
-      margin-bottom: 20px;
+      font-size: 17px;
+      color: #444;
+      margin-bottom: 24px;
+      line-height: 1.5;
     }
+
+    /* ✉️ Кнопка */
     .btn {
       display: inline-block;
-      background-color: #0088cc;
-      color: white;
-      padding: 12px 20px;
-      border: none;
-      border-radius: 8px;
+      background: linear-gradient(90deg, #00b4db, #0083b0);
+      color: #fff;
+      padding: 14px 28px;
+      border-radius: 12px;
       text-decoration: none;
-      font-size: 16px;
+      font-size: 18px;
+      font-weight: bold;
+      box-shadow: 0 4px 14px rgba(0, 131, 176, 0.4);
+      transition: 0.3s;
     }
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0, 131, 176, 0.5);
+    }
+
+    /* 📌 Примітка */
     .note {
-      margin-top: 16px;
+      margin-top: 20px;
       font-size: 14px;
-      color: #888;
+      color: #666;
+    }
+
+    /* ☀️ Маленьке сонечко */
+    .emoji {
+      font-size: 48px;
+      margin-bottom: 10px;
     }
   </style>
 </head>
 <body>
   <div class="card">
-    <h1>Приєднатися до Telegram</h1>
-    <p>Натисни кнопку нижче, щоб перейти за посиланням:</p>
-    <a class="btn" href="https://t.me/+J4Pno5d4hS01ZDQy" target="_blank" rel="noopener">Відкрити Telegram</a>
-    <div class="note">Якщо кнопка не працює — скопіюй посилання та встав у браузер або у додаток Telegram.</div>
+    <div class="emoji">🌞</div>
+    <h1>Приєднайся до нашого Telegram!</h1>
+    <p>Натисни кнопку нижче, щоб перейти до спільноти й не пропустити найцікавіше 💬</p>
+    <a class="btn" href="https://t.me/+J4Pno5d4hS01ZDQy" target="_blank" rel="noopener">🚀 Відкрити Telegram</a>
+    <div class="note">Якщо кнопка не працює — скопіюй посилання і встав його вручну у браузер або додаток Telegram.</div>
   </div>
 </body>
 </html>
